@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <Name>CreateOPM</Name>
+    <Version>6.0.0</Version>
+    <Framework>6.x</Framework>
+    <Vendor>Bretink.com - Put your organization here</Vendor>
+    <URL>http://bretink.com/</URL>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <ChangeLog Version="6.0.0" Date="2019-03-21 16:30:00">Initial package creation</ChangeLog>
+    <Description Lang="en">Test module</Description>
+    <IntroInstall Lang="en" Title="Installation of CreateOPM" Type="pre">
+        </IntroInstall>
+    <BuildDate>?</BuildDate>
+    <BuildHost>bretink.com</BuildHost>
+    <Filelist>
+        <File Permission="664" Location="Kernel/Config/Files/XML/Text.xml"></File>
+    </Filelist>
+</otrs_package>

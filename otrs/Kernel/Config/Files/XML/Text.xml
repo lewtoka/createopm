@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Changes">
+
+    <Setting Name="Ticket::Frontend::AgentTicketZoom###CustomString" Required="1" Valid="1">
+        <Description Translatable="1">A custom string for our test package.</Description>
+        <Navigation>Bretink::Modules::Test::Frontend::Agent::View</Navigation>
+        <Value>
+            <Item ValueType="String" ValueRegex="">Test</Item>
+        </Value>
+    </Setting>
+
+</otrs_config>
